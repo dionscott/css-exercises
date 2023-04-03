@@ -29,4 +29,26 @@ input {
 .header, .footer {
   display: flex;
   justify-content: space-between;
+  padding: 10px;
+}
+
+.header {
+  align-items: flex-start;
+}
+.footer {
+  align-items: flex-end;
+  background-color: #eeeeee;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #1e1d1d91;
 }
