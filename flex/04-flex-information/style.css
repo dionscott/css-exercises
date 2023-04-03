@@ -23,8 +23,9 @@ img {
 
 .information .media {
   flex: 0 0 200px;
-  /* display: flex;
-  flex-flow: column wrap; */
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
 }
 
 .information .media .text {
